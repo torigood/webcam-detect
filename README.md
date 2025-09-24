@@ -18,15 +18,15 @@ pip install ultralytics opencv-python numpy onnxruntime torch torchvision torcha
 
 # 4. scripts/verify_setup.py 파일 만들어서 아래 코드 붙여넣기:
 
-import cv2, torch, ultralytics
-print("OpenCV:", cv2.**version**)
-print("PyTorch:", torch.**version**, "CUDA available:", torch.cuda.is_available())
-print("Ultralytics:", ultralytics.**version**)
+1. import cv2, torch, ultralytics
+2. print("OpenCV:", cv2.**version**)
+3. print("PyTorch:", torch.**version**, "CUDA available:", torch.cuda.is_available())
+4. print("Ultralytics:", ultralytics.**version**)
 
-cap = cv2.VideoCapture(0)
-ok, \_ = cap.read()
-cap.release()
-print("Webcam:", "OK" if ok else "FAILED")
+5. cap = cv2.VideoCapture(0)
+6. ok, \_ = cap.read()
+7. cap.release()
+8. print("Webcam:", "OK" if ok else "FAILED")
 
 # 5. 터미널에서 실행 해서 Webcam 확인
 
