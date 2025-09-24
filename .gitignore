@@ -1,0 +1,18 @@
+# 가상환경
+.venv/
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+
+# 데이터/모델/학습결과
+data/
+models/
+runs/
+
+# VS Code 설정
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
